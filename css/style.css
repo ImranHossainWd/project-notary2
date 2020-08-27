@@ -1,0 +1,353 @@
+/* ************************* */
+/*    Basic Setup            */
+/* ************************* */
+
+
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+	font-family: sans-serif;
+}
+.clearfix::after{
+	content:"";
+	clear:both;
+	display:table;
+}
+
+/* ************************************* */
+/*          REUSABLE COMPONENTS          */
+/* ************************************* */
+.row{
+	width:70%;
+	margin:0 auto;
+	border:0px solid red;
+}
+
+
+
+
+
+
+
+
+/* ************************************* */
+/*               HEADER SECTION          */
+/* ************************************* */
+
+
+.logo{
+	width:20%;
+	border:0px solid red;
+	float:left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width:75%;
+	border:0px solid red;
+	float:right;
+	margin-top:10px;
+}
+.menu ul{
+    float:right;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+
+.menu ul li a{
+	text-decoration: none;
+	display: block;
+	padding:10px;
+	font-family:sans-serif;
+	font-size:;
+	font-weight:600;
+	color:rgb(83,93,105);
+
+}
+.menu ul li a:hover{
+	color:red;
+}
+
+
+
+.menu ul li:last-child a {
+	
+	padding-right: 0;
+}
+
+
+
+/* ************************************* */
+/*               Banner SECTION          */
+/* ************************************* */
+
+.banner-section{
+	width:100%;
+	background: url(../image/banner.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: right top;
+	padding:100px 0 100px 0;
+}
+
+
+.banner-content{
+	width: 50%;
+	border:0px solid red;
+}
+.banner-wrap{
+
+}
+/*
+.banner-content{
+	margin-top: 130px;
+	margin-bottom:130px;
+}*/
+.banner-content h1{
+    color:white;
+    font-size:48px;
+}
+.banner-content p{
+	    margin: 10px 0;
+	    font-size:18px;
+}
+.banner-content button{
+	width:275px;
+	height:45px;
+	font-weight: 700;
+    margin-top:20px;
+	background:#BE2342;
+	color:white;
+	border:none;
+	border-radius:5px;
+	cursor: pointer;
+}
+
+/* ************************************* */
+/*               PROCESS SECTION          */
+/* ************************************* */
+.process-section{
+	
+	text-align: center;
+}
+.process-wrap{
+
+}
+.process-head{
+	margin-top: 100px;
+}
+.process-head h1{
+	margin-bottom: 30px;
+}
+.process-head p{
+
+}
+.process-content{
+	border:0px solid red;
+	margin-top:50px;
+	margin-bottom: 100px;
+}
+.process-content p{
+	margin-top: 10px;
+     font-weight: 600;
+}
+.item1,.item2,.item3{
+	width:33.33%;
+	border:0px solid red;
+	float:left;
+}
+
+
+/* ************************************* */
+/*               Knowledge SECTION          */
+/* ************************************* */
+
+
+.knowledge-section{
+	background: rgb(240,240,240);
+	padding:80px 0 80px 0;
+}
+.knowledge-wrapper{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.knowledge-head{
+	width:50%;
+	float:left;
+	border:0px solid red;
+}
+.knowledge-head h1{
+	font-size:25px ;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.knowledge-head p{}
+.knowledge-head button{
+	margin-top: 30px;
+	width: 120px;
+	height: 30px;
+	background:#BE2342;
+	color:white;
+	border:none;
+	border-radius: 5px;
+    cursor: pointer;
+}
+.knowledge-content{
+	width:40%;
+	float:left;
+	border:0px solid red;
+	margin-left: 30px;
+
+}
+.knowledge-content iframe{
+	box-shadow: 0 0 10px black;
+}
+
+
+/* ************************************* */
+/*               Features SECTION          */
+/* ************************************* */
+
+
+.feature-section{
+
+}
+.feature-wrap{
+	padding:100px 0 100px 0;
+}
+.feature-head{
+	text-align: center;
+	border:0px solid red;
+}
+.feature-head h1{
+	margin-bottom: 20px;
+}
+.feature-head p{}
+.feature-content{
+	border:0px solid red;
+	padding:40px 0 40px 0;
+}
+.feature-content h3{
+	margin:15px 0 15px 0;
+}
+.feature-content .box{
+	width: 30%;
+	border:0px solid red;
+	float: left;
+	margin: 17px;
+    padding: 60px 0 60px 0;
+	text-align: center;
+	box-shadow: 0 0  5px gray;
+	transition: .5s;
+}
+.feature-content .box:hover{
+	box-shadow: 0 0  20px gray;
+}
+.feature-btn{
+	width:15%;
+	border:1px solid red;
+	margin:0 auto;
+}
+.feature-btn button{
+	width: 100%;
+    padding: 8px;
+    background: #fff;
+    color: #BE2342;
+    border: none;
+    box-shadow: 0 0 5px gray;
+    font-weight: 600;
+    cursor:pointer;
+}
+
+
+/* ************************************* */
+/*               CONTACT SECTION          */
+/* ************************************* */
+
+
+
+
+ .contact-section{
+ 	background: black;
+ }
+ .contact-wrap{
+ 	padding:50px 0 50px 0;
+ }
+ .access{
+ 	width:30%;
+ 	border:0px solid red;
+ 	float:left;
+ 	margin: 17px;
+ 	color:rgb(82,92,102);
+ }
+ .access h3{
+ 	margin:60px 0 60px 0;
+ 	color:rgb(191,34,63);
+ }
+ .contact2 ul li{
+ 	list-style-position: inside;
+ }
+ .contact2 ul li a{
+ 	text-decoration: none;
+ 	color:rgb(82,92,102);
+ }
+ .contact1 p{
+     margin: 9px 0 9px 0;
+    font-size: 13px;
+ }
+ .social-link{
+
+
+ }
+ .social-link ul{
+ 	margin-top: 18px;
+ }
+ .social-link ul li{
+ 	list-style: none;
+ 	display: inline-block;
+ }
+ .social-link ul li a{
+ 	display: block;
+ 	text-decoration: none;
+ 	padding:5px;
+ 	color:black;
+ 	background: rgb(82,92,102);
+ 	border-radius: 50%;
+ }
+ .social-link ul li a:hover{
+ 	color:white;
+ 	background: rgb(191,34,63);
+ }
+
+
+ .contact3 p{
+ 	    margin-bottom: 38px;
+ }
+ .contact3 input[type="submit"]{
+ 	background: rgb(191,34,63);
+ 	color:white;
+ 	padding:0 5px;
+ 	cursor: pointer;
+ }
+
+
+
+
+ /* ************************************* */
+/*               FOOTER SECTION          */
+/* ************************************* */
+
+footer{
+	background: rgb(82,92,102);
+	color:white;
+	text-align: center;
+	padding:20px;
+}
